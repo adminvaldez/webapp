@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VALDEZTECH Property Solutions</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      .carousel-item {
+        height: 80vh;
+        min-height: 500px;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .carousel-overlay {
+        background: rgba(0, 0, 0, 0.55);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      .carousel-caption {
+        bottom: 30%;
+      }
+
+      .featurette-divider {
+        margin: 5rem 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">VALDEZTECH</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../areas.html">Areas We Serve</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../estimate/qoute.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../about.html">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- CAROUSEL -->
+      <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div
+            class="carousel-item active"
+            style="background-image: url(&quot;./assets/image.png.jpg&quot;)"
+          >
+            <div class="carousel-overlay"></div>
+            <div class="container">
+              <div class="carousel-caption text-start text-white">
+                <h1>Professional Power Washing</h1>
+                <p>Protecting homes and properties across Greater Houston.</p>
+                <p>
+                  <a
+                    class="btn btn-lg btn-primary"
+                    href="../estimate/estimate.html"
+                    >Get a Free Quote</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div
+            class="carousel-item"
+            style="background-image: url(&quot;./assets/driveway.png&quot;)"
+          >
+            <div class="carousel-overlay"></div>
+            <div class="container">
+              <div class="carousel-caption text-white">
+                <h1>Residential & Light Commercial</h1>
+                <p>Driveways, siding, decks, fences, and more.</p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="../services.html"
+                    >View Services</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div
+            class="carousel-item"
+            style="background-image: url(&quot;./assets/image.png&quot;)"
+          >
+            <div class="carousel-overlay"></div>
+            <div class="container">
+              <div class="carousel-caption text-end text-white">
+                <h1>Locally Owned. Fully Insured.</h1>
+                <p>Environmentally conscious exterior cleaning.</p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="../about.html"
+                    >Learn More</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
+      <!-- MARKETING SECTION -->
+      <div class="container marketing mt-5">
+        <div class="row text-center">
+          <div class="col-lg-4">
+            <h2>House Washing</h2>
+            <p>Soft washing removes mold and buildup safely.</p>
+          </div>
+          <div class="col-lg-4">
+            <h2>Concrete Cleaning</h2>
+            <p>Driveways and patios restored to like-new condition.</p>
+          </div>
+          <div class="col-lg-4">
+            <h2>Fences & Decks</h2>
+            <p>Restore beauty while preserving surface integrity.</p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <!-- FEATURETTE 1 -->
+        <div class="row featurette align-items-center">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Before & After Results</h2>
+            <p class="lead">
+              Real transformations from properties we’ve serviced across
+              Houston.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="items/homepageimage.jpg"
+              class="img-fluid rounded"
+              alt="Before and After"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <!-- FEATURETTE 2 -->
+        <div class="row featurette align-items-center">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Post-Storm Documentation</h2>
+            <p class="lead">
+              Photo documentation to support insurance claims and maintenance
+              planning.
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+              src="items/homepageimage.jpg"
+              class="img-fluid rounded"
+              alt="Storm Documentation"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="container py-5 text-center">
+        <p class="mb-1 fw-bold">VALDEZTECH PROPERTY SOLUTIONS LLC</p>
+        <p class="text-muted">Serving Spring Branch & Greater Houston, TX</p>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
