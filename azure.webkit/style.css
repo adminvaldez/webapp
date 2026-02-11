@@ -1,0 +1,74 @@
+.bg-primary
+
+    :root {
+      --navy: #0F1E2D;
+      --gray-text: #2E2E2E;
+      --accent: #3FBF7F;
+      --off-white: #F4F6F7;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background-color: var(--off-white);
+      color: var(--gray-text);
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      font-family: 'Montserrat', sans-serif;
+      color: var(--navy);
+    }
+
+    .section-padding {
+      padding: 4rem 0;
+    }
+
+    .content-block {
+      max-width: 760px;
+    }
+
+    
+    :root {
+      --navy: #0F1E2D;
+      --gray-text: #2E2E2E;
+      --accent: #3FBF7F;
+      --off-white: #F4F6F7;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background-color: var(--off-white);
+      color: var(--gray-text);
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      font-family: 'Montserrat', sans-serif;
+      color: var(--navy);
+    }
+
+    .content-block {
+      max-width: 820px;
+    }
+
+    #serviceMap {
+      height: 420px;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+
+    .area-card {
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      border-radius: 8px;
+      padding: 1.5rem;
+      height: 100%;
+    }
+
+    .badge-primary-area {
+      background-color: #e9f7f0;
+      color: #198754;
+      font-weight: 500;
+    }
